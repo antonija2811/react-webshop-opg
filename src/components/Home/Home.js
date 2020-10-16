@@ -16,7 +16,7 @@ class Home extends Component {
 
                 
                 <div className="row">
-                    <div className="col-12 mx-auto text-center mt-5">
+                    <div className="col-12 mx-auto text-center mt-5 mb-2">
                         <Title title={"o nama"}/>
                     </div>   
                 </div>

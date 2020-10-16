@@ -3,9 +3,14 @@ import React from 'react';
 export default function Title({title}) {
     return (
         <div style={{
-            backgroundColor: 'var(--lightGreen)'
+            borderBottom: '1px solid var(--mainGrey)',
+            color: 'var(--mainDark)',
+            textTransform: 'uppercase',
+            fontSize: '1.2rem',
+            marginBottom: '0',
+            padding: '0.5rem'
         }}>
-            <h2 className="text-title"><strong>{title}</strong></h2>
+            <span><strong>{title}</strong></span>
         </div>
 
 

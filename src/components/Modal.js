@@ -28,12 +28,12 @@ class Modal extends Component {
                                         {/*Buttons*/}
                                         <Link to='/ProductList'>
                                             <ButtonContainer onClick={()=>closeModal()}>
-                                                Store
+                                                Natrag
                                             </ButtonContainer>
                                         </Link>
                                         <Link to ='/Cart'>
                                             <ButtonContainer cart onClick={()=>closeModal()}>
-                                                Go to cart
+                                                Idi u košaricu
                                             </ButtonContainer>
                                         </Link>
                                     </div>

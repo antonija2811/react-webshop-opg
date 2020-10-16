@@ -21,7 +21,7 @@ class Product extends Component {
                                 <Link to="/details">
                                     <img src={img} alt="product" className="card-img-top p-4"/>
                                 </Link>
-                                <button className="cart-btn mx-1" 
+                                <button className="cart-btn mx-1 mb-1" 
                                     disabled={inCart ? true : false} 
                                     onClick={()=> {
                                         value.addToCart(id);
@@ -29,9 +29,9 @@ class Product extends Component {
                                     }}
                                 >
                                 {inCart ? (
-                                    <p className="text-capitalize" disabled>in cart</p>
+                                    <i className="fas fa-shopping-basket" disabled style={{color: 'var(--mainRed)'}}/>
                                 ) : (
-                                    <i className="fas fa-cart-plus"/>
+                                    <i className="fas fa-shopping-basket"/>
                                 )
                                 }
                                 </button>
@@ -59,7 +59,8 @@ const ProductWrapper = styled.div`
     .card {
         border-color: transparent;
         transition: all 0.1s linear;
-
+        height: 100%;
+        
     }
 
     .card-footer {
@@ -67,6 +68,7 @@ const ProductWrapper = styled.div`
         border-top: transparent;
         transition: all 0.1s linear;
         padding-top: 1rem;
+        
     }
 
     &:hover {
@@ -79,11 +81,14 @@ const ProductWrapper = styled.div`
             background: rgba(247,247,247);
 
         }
+
+
     }
 
     .img-container {
         position: relative;
         overflow: hidden;
+        height: 100%;
     }
 
     .cart-btn {
@@ -96,11 +101,11 @@ const ProductWrapper = styled.div`
         border-radius: 0.3rem;
         color: var(--mainWhite);
         font-size: 1.4rem;
-        
+        margin-top: 2rem;
     }
 
     .cart-btn:hover {
-        color: var(--mainOrange);
+        color: var(--mainRed);
         cursor: pointer;
     }
 

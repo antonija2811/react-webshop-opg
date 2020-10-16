@@ -3,9 +3,9 @@
   --lightGreen:#A6C58B;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
-  --mainOrange:#F4811E;
+  --mainRed: #dc3545;
   --mainOpacity:  rgba(166, 197, 139, 0.5);
-  
+  --mainGrey: #6b737b;
 }
 
 body {
@@ -30,9 +30,6 @@ body {
   font-size: 1.2rem;
 }
 
-.text-title:hover {
-  color: var(--mainOrange);
-}
 
 .text-green {
   color: var(--mainGreen);

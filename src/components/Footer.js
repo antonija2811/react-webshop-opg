@@ -74,7 +74,7 @@ class Footer extends Component {
                         fontSize: '1.2rem',
                         color: 'var(--mainGreen)',
                         fontWeight: 'bold',
-                        marginTop: '2rem'
+                        marginTop: '1.5rem'
                     }}>
                         <div className="row">
                             <div className="col-12 d-flex justify-content-center follow-us-footer">

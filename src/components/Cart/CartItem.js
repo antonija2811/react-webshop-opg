@@ -1,11 +1,29 @@
 import React from 'react';
+import styled from 'styled-components';
 
 export default function CartItem({item,value}) {
     const {id,title,img,price,total,count} = item;
     const {increment, decrement, removeItem} = value;
 
+    const CartCss = styled.div `
+    .btn:hover {
+        background-color: var(--mainRed) !important;
+        border: 0.1rem solid var(--mainRed) !important;
+        border-radius. 0.25rem;
+        
+    }
+
+    .btn {
+        font-size: 0.6rem !important;
+    }
+
+    .cart-icon:hover {
+        color: var(--mainRed);
+    }
+`
+
     return (
-        <div className="row my-2 text-capitalize text-center">
+        <CartCss className="row my-2 text-capitalize text-center">
             <div className="col-10 mx-auto col-lg-2">
                 <img 
                     src={img} 
@@ -45,7 +63,9 @@ export default function CartItem({item,value}) {
             <div className="col-10 mx-auto col-lg-2">
                 <strong>{total}<span>kn</span></strong>
             </div>
-        </div>
+        </CartCss>
     );
+
+
 }
 

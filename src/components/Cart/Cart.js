@@ -17,7 +17,6 @@ class Cart extends Component {
                         if(cart.length>0) {
                             return (
                                 <div>
-                                    <Title title="cart"/>
                                     <CartColumns/>
                                     <CartList value={value}/>
                                     <CartTotals value={value}/>

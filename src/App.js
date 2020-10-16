@@ -10,6 +10,7 @@ import NavBar from './components/NavBar';
 import Details from './components/Details';
 import Contact from './components/Contact';
 import Modal from './components/Modal';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -29,7 +30,7 @@ class App extends Component {
           <Route component={Default}></Route>
         </Switch>
         <Modal/>
-
+        <Footer/>
 
       </div>
     );

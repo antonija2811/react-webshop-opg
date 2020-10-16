@@ -1,66 +1,110 @@
 export const storeProducts = [
     {
         id:1,
-        title: "Višnje",
+        title: "Višnja",
         img: "images/visnja.jpg",
         price: 20,
         info: 
-            "bu bu",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id:2,
-        title: "Trešnje",
+        title: "Trešnja",
         img: "images/tresnja.jpg",
         price: 25,
         info:
-            "bla bla",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id:3,
-        title: "Smokve",
-        img: "images/smokva.jpg",
+        title: "Smokva",
+        img: "images/smokva1.jpg",
         price: 50,
         info:
-            "bla bla",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id:4,
-        title: "Breskve",
+        title: "Breskva",
         img: "images/breskva.jpg",
         price: 15,
         info:
-            "bla bla",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id:5,
-        title: "Mandarine",
+        title: "Mandarina",
         img: "images/mandarina.jpg",
         price: 10,
         info:
-            "bla bla",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id:6,
+        title: "Jabuka",
+        img: "images/jabuka.jpg",
+        price: 10,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0
     },
     {
         id: "a",
-        title: "Tikvice",
+        title: "Tikvica",
         img: "images/tikvica.jpg",
         price: 10,
         info:
-            "bla bla",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: "b",
+        title: "Rajčica",
+        img: "images/rajcica.jpg",
+        price: 10,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: "c",
+        title: "Kupus",
+        img: "images/kupus.jpg",
+        price: 10,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: "d",
+        title: "Krastavac",
+        img: "images/krastavac.jpg",
+        price: 10,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         inCart: false,
         count: 0,
         total: 0

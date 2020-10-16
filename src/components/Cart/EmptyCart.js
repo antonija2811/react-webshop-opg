@@ -5,8 +5,8 @@ class EmptyCart extends Component {
         return (
             <div className="container mt-5">
                 <div className="row">
-                    <div className="col-10 mx-auto text-center text-title">
-                        <h2>your card is empty</h2>
+                    <div className="col-10 mx-auto text-center" style={{color: 'var(--mainRed)'}}>
+                        <h4>Vaša košarica je prazna.</h4>
                     </div>
                 </div>
                 
