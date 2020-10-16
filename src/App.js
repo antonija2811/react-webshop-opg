@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Switch, Route} from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import Default from './components/Default';
