@@ -1,0 +1,39 @@
+.slide-container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+  
+
+.react-slideshow-container {
+    justify-content: center;
+    height: 100%;
+}
+
+.react-slideshow-container .default-nav {
+  color: var(--mainOrange) !important;
+}
+
+
+.slide_images {
+  width: 100%;
+  height: 100%;
+
+}
+
+.react-slideshow-slide-wrapper {
+    height: 60vw;
+    width: 90vw;
+    text-align: center;
+    display: flex
+  }
+
+.react-slideshow-slide-wrapper .slide-wrapper {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
+
