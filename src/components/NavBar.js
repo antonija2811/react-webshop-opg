@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from "../logo2.png";
 import '.././App.css';
-import {ButtonContainer} from './Button'
 import styled from 'styled-components';
 
 
@@ -11,7 +10,7 @@ class NavBar extends Component {
         return (
             <NavCss className="navbar navbar-expand-sm navbar-light px-sm-5">
                 <Link to='./'>
-                    <img src={logo} alt="opg" className="navbar-brand" style={{borderRadius:'1.9rem',height:'5rem'}}/>
+                    <img src={logo} alt="opg" className="navbar-brand" style={{borderRadius:'1.9rem',height: '6rem'}}/>
                 </Link>
                 <Link to='/ProductList' style={{textDecoration: 'none'}}>
                     <h5 className="link-title" style={{marginLeft:'3rem'}}>PROIZVODI</h5>
@@ -47,11 +46,14 @@ const NavCss = styled.nav `
     .link-title:hover {
         color: var(--mainRed);
     }
+
+    padding: 0 1rem;
+    
     
 `
 
 const ButtonCss = styled.button `
-    padding: 0.2rem;
+    padding: 0.3rem;
     font-size: 0.9rem;
     border-radius: .25rem;
     border: 0.2rem solid var(--lightGreen);

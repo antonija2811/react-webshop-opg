@@ -15,7 +15,7 @@ export default function CartTotals({value}) {
                         </h5>
                         <Link to="/ProductList">
                             <button 
-                                className="btn btn-outline-danger text-uppercase text-left mb-3 px-2 mr-2" 
+                                className="btn btn-outline-danger text-uppercase mb-3 px-2 mr-2" 
                                 type="button"
                                 onClick={()=>clearCart()}
                                 style={{
