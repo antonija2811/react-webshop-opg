@@ -66,6 +66,28 @@ export const storeProducts = [
         total: 0
     },
     {
+        id:7,
+        title: "Naranča",
+        img: "images/naranca.jpg",
+        price: 10,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id:8,
+        title: "Jagoda",
+        img: "images/jagoda.jpg",
+        price: 15,
+        info:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
         id: "a",
         title: "Tikvica",
         img: "images/tikvica.jpg",

@@ -11,7 +11,6 @@ class ProductProvider extends Component {
         products: [],
         detailProduct: detailProduct,
         cart: [],
-        modalOpen: false,
         modalProduct: detailProduct,
         cartTotal: 0
     };
@@ -53,15 +52,20 @@ class ProductProvider extends Component {
         product.count = 1;
         const price = product.price;
         product.total = price;
+        
 
         this.setState(()=>{
-            return {products: tempProducts,
-                    cart: [...this.state.cart,product]};
+            return {
+                products: tempProducts,
+                cart: [...this.state.cart,product],
+                };
         },
         () => {
-            this.addTotals();
+            this.addTotals(); 
         }
         );
+        
+        
     }
 
     openModal = (id) => {
@@ -95,6 +99,7 @@ class ProductProvider extends Component {
             this.addTotals();
         }
         );
+        
     }
 
     decrement = (id) => {
@@ -145,8 +150,10 @@ class ProductProvider extends Component {
             }
         },()=>{
             this.addTotals();
+            
         },
         );
+        
     }
 
     clearCart = () => {
@@ -167,6 +174,7 @@ class ProductProvider extends Component {
                 cartTotal:total
             }
         })
+        
     }
 
     render() {
